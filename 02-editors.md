@@ -89,6 +89,6 @@ What terminal editor will be your preferred choice of use? How did you make your
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> emacs will be my graphical editor of choice as then it is one list of shortcuts that I have to learn that will work across terminal and the GUI. Useful shortcuts include Ctrl-g for quit and M-x for running a script. The interface can be customized to split the active window vertically into two horizontal windows using Ctrl-x 2
+>> emacs will be my graphical editor of choice as then it is one list of shortcuts that I have to learn that will work across terminal and the GUI. Useful shortcuts include Ctrl-g for quit and Alt-x for running a script. The interface can be customized to split the active window vertically into two horizontal windows using Ctrl-x 2, and to have different colour templates or to always show the line numbers associated with a file.
 
  
