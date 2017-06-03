@@ -19,8 +19,17 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+> > **Laura's List of 10 Useful Commands**
+- pwd - _show current working directory path_
+- ls - _list directory_
+- mkdir - _create a directory_
+- rmdir - _delete a directory_
+- rm - _delete a file_
+- touch - _create blank file in current directory_
+- mv - _move file or directory/ rename file or directory_
+- ls -a - _list hidden files_
+- cp - _copy a file from one directory to another_
+- pushd - _push directory to pathway requested_
 ---
 
 ### Q2.  List Files in Unix   
