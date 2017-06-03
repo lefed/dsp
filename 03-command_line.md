@@ -58,7 +58,12 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > **further ls options**
+- ls -c - _display files by file timestamp_
+- ls -d - _display only directories_
+- ls -g - _displays the long format listing, but excludes the owner name_
+- ls -R - _displays subdirectories as well_
+- ls -t - _displays newest file first (by timestamp)_
 
 ---
 
@@ -66,7 +71,25 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > **xargs** is used to execute arguments or command lines from standard input. This is useful because some commands are unable to process standard input.
+
+_Example of use of xargs:_
+
+_this example is using **xargs** to give **echo** the input one by one so that it prints line by line_
+
+$echo this then that | xargs -n 1 echo
+
+_gives output_
+this
+then
+that
+
+_vs_
+
+$echo this then that
+
+_gives output_
+this then that
 
  
 
