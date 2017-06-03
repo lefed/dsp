@@ -49,7 +49,7 @@ What do the following commands do:
 - ls -l - _use long listing format_
 - ls -lh - _use long listing format but **hide** i.e. do not list implied entries matching shell PATTERN_
 - ls - lah - _use long listing format and hide . files_
-- ls -t _sort by modification time, newest first_
+- ls -t - _sort by modification time, newest first_
 - ls - Glp - _do not print group names in long listing, show via append / indicator to directories_
 
 ---
