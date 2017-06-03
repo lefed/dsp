@@ -82,8 +82,11 @@ $echo this then that | xargs -n 1 echo
 _gives output:_
 
 this
+
 then
+
 that
+
 
 _vs_
 
