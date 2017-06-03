@@ -79,7 +79,8 @@ _this example is using **xargs** to give **echo** the input one by one so that i
 
 $echo this then that | xargs -n 1 echo
 
-_gives output_
+_gives output:_
+
 this
 then
 that
@@ -88,7 +89,8 @@ _vs_
 
 $echo this then that
 
-_gives output_
+_gives output:_
+
 this then that
 
  
