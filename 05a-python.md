@@ -121,28 +121,45 @@ f_xy = lambda x, y : x*y
  
 _Therefore_
 f_xy(2,3)
+
 _gives_
+
 6
  
 _More Examples: The following use of a lambda function within the key of sorted returns a sorted list with a customized key order based on the lambda functions:_
  
 new_list = [0,2,333,4,-9, 67,89, -55]
+
 new_list
+
 _gives_
+
 [0, 2, 333, 4, -9, 67, 89, -55]
+
 sorted(new_list, key = lambda x: x>=0)
+
 _gives_
+
 [-9, -55, 0, 2, 333, 4, 67, 89]
  
 new_words = ['THIS', 'IS', 'MY', 'list', 'of', 'words']
+
 new_words
+
 _gives_
+
 ['THIS', 'IS', 'MY', 'list', 'of', 'words']
+
 sorted(new_words, key = lambda x: x.isupper()==1)
+
 _gives_
+
 ['list', 'of', 'words', 'THIS', 'IS', 'MY']
+
 sorted(new_words, key = lambda x: x.isupper()==0)
+
 _gives_
+
 ['THIS', 'IS', 'MY', 'list', 'of', 'words']
  
 
@@ -153,7 +170,7 @@ _1 - that what the lambda key is doing is giving a 0 or 1 value back for each of
 _2 - sorted is only called once so only the first two values are sorted and interestingly it seems to only sort via absollute values instead of actual distance from zero as would be understood by the mathematical notation._
 
 ---
-### Q4. List Comprehension, Map &Amp; Filter
+### Q4. List Comprehension, Map &amp; Filter
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
