@@ -58,7 +58,7 @@ They are different in that sets are unordered collections of mutable objects (fr
  
 Lists are created using square brackets [] and sets are created using curly brackets {}.
  
-sets allows you to do operations such as intersection, union, difference, and symmetric difference, i.e operations of math's set theory. Sets doesn't allow indexing and are implemented on hash tables.
+_sets_ allows you to do operations such as _intersection, union, difference,_ and _symmetric difference_, i.e operations of math's set theory. Sets doesn't allow indexing and are implemented on hash tables.
 
 **Give examples of using both:**
  
