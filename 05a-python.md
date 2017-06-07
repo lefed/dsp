@@ -14,7 +14,9 @@ How are Python lists and tuples similar and different? Which will work as keys i
 
 >>Answer Below:
 
-**Breakdown of Q1 - How are Python lists and tuples similar and different?**
+**Q1 Breakdown -**
+
+**How are Python lists and tuples similar and different?**
  
 Lists and tuples in Python are similar in that they both are containers able to store values as a sequence of objects. Both can hold objects of any type.
  
@@ -46,13 +48,13 @@ How are Python lists and sets similar and different? Give examples of using both
 
 >> Answer below:
 
-**Q2 Breakdown -
+**Q2 Breakdown -**
 
-How are Python lists and sets similar and different?**
+**How are Python lists and sets similar and different?**
  
-Lists and sets in Python are similar in that they both are containers able to store values as objects in a collection. 
+Lists and sets in Python are similar in that they both are containers able to store values as objects in a collection and are both mutable (unless a frozen set). 
  
-They are different in that sets are unordered collections of immutable objects and cannot contain duplicates vs. lists are ordered collections of mutable objects that can contain duplications. Because sets are an unordered collection, they do not record element position or information about order of insertion. They therefore do not support any sequence-like behaviour such as slicing or indexing.
+They are different in that sets are unordered collections of mutable objects (frozen sets are unordered collections of immutable and hashable objects) and cannot contain duplicates vs. lists are ordered collections of mutable objects that can contain duplications. Because sets are an unordered collection, they do not record element position or information about order of insertion. They therefore do not support any sequence-like behaviour such as slicing or indexing.
  
 Lists are created using square brackets [] and sets are created using curly brackets {}.
  
@@ -93,7 +95,7 @@ _Gives output_
  
 **How does performance compare between lists and sets for finding an element. Why?**
  
-Sets are significantly faster for finding an element (i.e. determining if an element is present) however sets are slower than lists when it comes to iterating over their contents because they are unordered. 
+Sets are significantly faster for finding an element (i.e. determining if an element is present) however sets are slower than lists when it comes to iterating over their contents because they are not hashable and unordered. 
 
 
 ---
