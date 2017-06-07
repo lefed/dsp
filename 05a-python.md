@@ -174,6 +174,104 @@ _2 - sorted is only called once so only the first two values are sorted and inte
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
+>>>Answer below:
+
+List comprehensions provide a concise way to create lists based on evaluations of an expression. It consists of brackets containing an expression followed by a for clause, then zero or more for or if clauses. The expressions can be anything, meaning you can put in all kinds of objects in lists.
+
+The result will be a new list resulting from evaluating the expression in the
+context of the for and if clauses which follow it. List comprehensions always returns a result list.
+ 
+_Examples of list comprehensions vs. filtering:_
+
+_If you used to do it like this with a filter:_
+
+old_list = [0,1,2,3,4,5,6]
+
+just_evens = list(filter(lambda x: x%2 ==0, old_list))
+
+just_evens
+
+_gives_
+
+[0,2,4,6]
+
+less_than_five = list(filter(lambda x: x<5, old_list))
+
+less_than_five
+
+_gives_
+
+[0,1,2,3,4]
+
+_You can obtain the same thing using list comprehension:_
+
+old_list1 = [0,1,2,3,4,5,6]
+
+just_evens1 = [x for x in old_list1 if x%2 ==0]
+
+just_evens1
+
+_gives_
+
+[0,2,4,6]
+
+less_than_four = [x for x in old_list1 if x<4]
+
+less_than_four
+
+_gives_
+
+[0,1,2,3]
+ 
+_Examples of list comprehensions vs. mapping:_
+
+If you used to do it like this with a map:
+
+list_of_numbers = [1,1,1,1,1,2,2]
+
+list2 = list(map(lambda x: x*2, list_of_numbers))
+
+list2
+
+_gives_
+
+[2,2,2,2,2,4,4]
+
+_You can do the same thing using list comprehension:_
+
+second_list_of_numbers = [1,1,1,3,3]
+
+list3 = [x*3 for x in second_list_of_numbers]
+
+list3
+
+_gives_
+
+[3,3,3,9,9]
+ 
+map() function
+
+map() applies a function func to all the elements of a sequence seq. It returns a new list with the elements changed by func. The first argument func is the name of a function and the second a sequence (e.g. a list) seq. It is used as a way to map a change onto a set of elements and create a new set of elements with the new values.
+ 
+**Python documentation:**
+ 
+map(object):
+
+map(func, *iterables) → map object
+
+Make an iterator that computes the function using arguments from each of the iterables. Stops when the shortest iterable is exhausted.
+ 
+filter() function
+
+The filter function takes an set of elements and keeps elements based on the evaluation of a function and filters out all other elements that do not meet the condition.
+ 
+**Python documentation:**
+ 
+filter(object):
+ 
+filter(function or None, iterable) → filter object
+
+Return an iterator yielding those items of iterable for which function (item) is true. If function is None, return the items that are true.
 
 ---
 ### Complete the following problems by editing the files below:
