@@ -12,6 +12,7 @@ For quick and easy interactive practice with Python, many people enjoy [Codecade
 
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
+>>
 **Breakdown of Q1 - How are Python lists and tuples similar and different?**
  
 Lists and tuples in Python are similar in that they both are containers able to store values as a sequence of objects. Both can hold objects of any type.
