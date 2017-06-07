@@ -249,7 +249,7 @@ _gives_
 
 [3,3,3,9,9]
  
-####map() function
+#### map() function
 
 map() applies a function func to all the elements of a sequence seq. It returns a new list with the elements changed by func. The first argument func is the name of a function and the second a sequence (e.g. a list) seq. It is used as a way to map a change onto a set of elements and create a new set of elements with the new values.
  
@@ -261,7 +261,7 @@ map(func, *iterables) → map object
 
 Make an iterator that computes the function using arguments from each of the iterables. Stops when the shortest iterable is exhausted.
  
-####filter() function
+#### filter() function
 
 The filter function takes an set of elements and keeps elements based on the evaluation of a function and filters out all other elements that do not meet the condition.
  
