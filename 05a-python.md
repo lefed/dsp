@@ -97,20 +97,11 @@ _Gives output_
  
 Sets are significantly faster for finding an element (i.e. determining if an element is present) however sets are slower than lists when it comes to iterating over their contents because they are not hashable and unordered. 
 
-
 ---
 
 ### Q3. Lambda Function
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
-
->> REPLACE THIS TEXT WITH YOUR RESPONSE
-
----
-
-### Q4. List Comprehension, Map &amp; Filter
-
-Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
 >> Answer below:
 
@@ -129,30 +120,39 @@ _Example: The following example of a lambda function returns the product of its 
 f_xy = lambda x, y : x*y
  
 _Therefore_
->>>f_xy(2,3)
+>f_xy(2,3)
 6
  
 _More Examples: The following use of a lambda function within the key of sorted returns a sorted list with a customized key order based on the lambda functions:_
  
->>>new_list = [0,2,333,4,-9, 67,89, -55]
->>> new_list
+>new_list = [0,2,333,4,-9, 67,89, -55]
+>new_list
 [0, 2, 333, 4, -9, 67, 89, -55]
->>> sorted(new_list, key = lambda x: x>=0)
+>sorted(new_list, key = lambda x: x>=0)
 [-9, -55, 0, 2, 333, 4, 67, 89]
  
->>> new_words = ['THIS', 'IS', 'MY', 'list', 'of', 'words']
->>> new_words
+>new_words = ['THIS', 'IS', 'MY', 'list', 'of', 'words']
+> new_words
 ['THIS', 'IS', 'MY', 'list', 'of', 'words']
->>> sorted(new_words, key = lambda x: x.isupper()==1)
+> sorted(new_words, key = lambda x: x.isupper()==1)
 ['list', 'of', 'words', 'THIS', 'IS', 'MY']
->>> sorted(new_words, key = lambda x: x.isupper()==0)
+> sorted(new_words, key = lambda x: x.isupper()==0)
 ['THIS', 'IS', 'MY', 'list', 'of', 'words']
->>> 
+> 
 
-_The result of the above sorting using lambda as a key is a bit confusing, however it is important to note two things: 1 - that what the lambda key is doing is giving a 0 or 1 value back for each of the list sets such that in new list when checking if >=0 on new_list you would get 1, 1, 1, 1, 0, 1, 1, 0 so really you are only looking to call sort on the values that are at the beginning of the transformed list - those that are 0s ie the negative values. 2 - sorted is only called once so only the first two values are sorted and interestingly it seems to only sort via absollute values instead of actual distance from zero as would be understood by the mathematical notation_
+_The result of the above sorting using lambda as a key is a bit confusing, however it is important to note two things:_
+
+_1 - that what the lambda key is doing is giving a 0 or 1 value back for each of the list sets such that in new list when checking if >=0 on new_list you would get 1, 1, 1, 1, 0, 1, 1, 0 so really you are only looking to call sort on the values that are at the beginning of the transformed list - those that are 0s ie the negative values.
+
+_2 - sorted is only called once so only the first two values are sorted and interestingly it seems to only sort via absollute values instead of actual distance from zero as would be understood by the mathematical notation_
 
 ---
+###Q4. List Comprehension, Map & Filter
 
+Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
+
+
+---
 ### Complete the following problems by editing the files below:
 
 ### Q5. Datetime
