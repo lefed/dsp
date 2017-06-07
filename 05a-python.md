@@ -44,7 +44,57 @@ Only tuples will work as keys in dictionaries. This is because they are immutabl
 
 How are Python lists and sets similar and different? Give examples of using both. How does performance compare between lists and sets for finding an element. Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Answer below:
+
+**Q2 Breakdown -
+
+How are Python lists and sets similar and different?**
+ 
+Lists and sets in Python are similar in that they both are containers able to store values as objects in a collection. 
+ 
+They are different in that sets are unordered collections of immutable objects and cannot contain duplicates vs. lists are ordered collections of mutable objects that can contain duplications. Because sets are an unordered collection, they do not record element position or information about order of insertion. They therefore do not support any sequence-like behaviour such as slicing or indexing.
+ 
+Lists are created using square brackets [] and sets are created using curly brackets {}.
+ 
+sets allows you to do operations such as intersection, union, difference, and symmetric difference, i.e operations of math's set theory. Sets doesn't allow indexing and are implemented on hash tables.
+
+**Give examples of using both:**
+ 
+_Sets Example:_ 
+ 
+_Create an empty set:_
+ 
+set()
+ 
+_Creating a set of values 1,3,5,7,11,13,17_
+ 
+primes1 = {1,3,5,7,11,13,17, 17}
+print(primes1)
+ 
+_Could give output_ 
+ 
+{1,5,7,17,13,3,11}
+ 
+_Lists Example:_ 
+ 
+_Create an empty list:_
+ 
+primes2 = []
+ 
+_Creating a list of values 1,3,5,7,11,13,17,17_
+ 
+primes2 = [1,3,5,7,11,13,17,17]
+print(primes2)
+ 
+_Gives output_ 
+ 
+[1,3,5,7,11,13,17,17]
+ 
+ 
+**How does performance compare between lists and sets for finding an element. Why?**
+ 
+Sets are significantly faster for finding an element (i.e. determining if an element is present) however sets are slower than lists when it comes to iterating over their contents because they are unordered. 
+
 
 ---
 
