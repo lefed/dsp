@@ -18,8 +18,22 @@ def donuts(count):
     >>> donuts(99)
     'Number of donuts: many'
     """
-    raise NotImplementedError
+    
+    if count >=10:
+        print('Number of donuts: many')
 
+    elif count <10:
+        print('Number of donuts:', count)
+
+    return
+
+#test donuts function to see that it works
+    
+donuts(4)
+donuts(9)
+donuts(10)
+donuts(99) 
+    
 
 def both_ends(s):
     """
@@ -37,8 +51,21 @@ def both_ends(s):
     >>> both_ends('xyz')
     'xyyz'
     """
-    raise NotImplementedError
 
+    if len(s)<2:
+        print('')
+
+    elif len(s)>2:
+        new_s = s[0:2] + s[-2:]
+        print(new_s)
+
+    return    
+
+both_ends('spring')
+both_ends('Hello')
+both_ends('a')
+both_ends('xyz')
+    
 
 def fix_start(s):
     """
@@ -56,7 +83,19 @@ def fix_start(s):
     >>> fix_start('donut')
     'donut'
     """
-    raise NotImplementedError
+
+    lettertostar = s[0]
+
+    new_s = s[0] + s[1:].replace(lettertostar, '*')
+
+    print(new_s)
+
+    return
+           
+fix_start('babble')
+fix_start('aardvark')
+fix_start('google')
+fix_start('donut')
 
 
 def mix_up(a, b):
@@ -74,8 +113,17 @@ def mix_up(a, b):
     >>> mix_up('pezzy', 'firm')
     'fizzy perm'
     """
-    raise NotImplementedError
 
+    ab_string = b[0:2] + a[2:] + ' ' + a[0:2] + b[2:]
+
+    print(ab_string)
+
+    return
+
+mix_up('mix', 'pod')
+mix_up('dog', 'dinner')
+mix_up('gnash', 'sport')
+mix_up('pezzy', 'firm')
 
 def verbing(s):
     """
@@ -91,8 +139,27 @@ def verbing(s):
     >>> verbing('do')
     'do'
     """
-    raise NotImplementedError
 
+    if len(s)<3:
+        print(s)
+        return s
+    
+    elif len(s)>3:
+        
+        if s[-3:] == 'ing':
+            new_ing_s = s + 'ly'
+            print(new_ing_s)
+            return new_ing_s
+        
+        else:
+            new_ing_s = s + 'ing'
+            print(new_ing_s)
+            return new_ing_s
+
+verbing('hail')
+verbing('swiming')
+verbing('do')
+        
 
 def not_bad(s):
     """
@@ -111,8 +178,25 @@ def not_bad(s):
     >>> not_bad("It's bad yet not")
     "It's bad yet not"
     """
-    raise NotImplementedError
 
+    if 'not' and 'bad' in s:
+        if s.find('not') < s.find('bad'):
+            new_string = s[0:s.find('not')] + 'good' + s[(s.find('bad')+3):]
+            print(new_string)
+            return
+        else:
+            print(s)
+            return
+
+    else:
+        print(s)
+        return
+
+not_bad('This movie is not so bad')
+not_bad('This dinner is not that bad!')
+not_bad('This tea is not hot')
+not_bad("It's bad yet not")
+    
 
 def front_back(a, b):
     """
@@ -130,4 +214,33 @@ def front_back(a, b):
     >>> front_back('Kitten', 'Donut')
     'KitDontenut'
     """
-    raise NotImplementedError
+
+    if len(a)%2 == 0:
+        half_index = int(len(a)/2)
+        a_front = a[:half_index]
+        a_back = a[half_index:]
+
+    elif len(a)%2 != 0:
+        half_index = int(len(a)/2 + 1)
+        a_front = a[:half_index]
+        a_back = a[half_index:]
+
+    if len(b)%2 == 0:
+        half_index = int(len(b)/2)
+        b_front = b[:half_index]
+        b_back = b[half_index:]
+
+    elif len(b)%2 != 0:
+        half_index = int(len(a)/2 + 1)
+        b_front = b[:half_index]
+        b_back = b[half_index:]
+
+    newfrontbackstring = a_front + b_front + a_back +b_back
+
+    print(newfrontbackstring)
+
+    return newfrontbackstring
+
+front_back('abcd', 'xy')
+front_back('abcde', 'xyz')
+front_back('Kitten', 'Donut')
