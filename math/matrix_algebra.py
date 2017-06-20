@@ -45,6 +45,8 @@ print(alpha*u)
 udotv = np.dot(u,v)
 print(udotv)
 
+print(np.linalg.norm(u))
+
 #Q3 - matrix operations
 
 print('Q3 - matrix operations')
