@@ -9,7 +9,7 @@ You should be familiar with the following concepts:
 * adding vectors
 * matrix multiplication
 * matrix inverse
-* how to visualize lines and planes and hyperplanes; dot product
+* [how to visualize lines and planes and hyperplanes](https://www.youtube.com/watch?v=UJxgcVaNTqY); dot product
 * systems of linear equations
 * eigenvalues
 
