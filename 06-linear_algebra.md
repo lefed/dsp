@@ -6,12 +6,12 @@
 ---
 
 You should be familiar with the following concepts:
-* [adding vectors] (https://www.youtube.com/watch?v=8QihetGj3pg)
-* [matrix multiplication] (https://www.youtube.com/watch?v=aKhhYguY0DQ)
-* [matrix inverse] (https://www.youtube.com/watch?v=iUQR0enP7RQ)
-* [how to visualize lines and planes and hyperplanes](https://www.youtube.com/watch?v=UJxgcVaNTqY); [dot product] (https://www.youtube.com/watch?v=WNuIhXo39_k)
-* [systems of linear equations] (https://www.youtube.com/watch?v=vA-55wZtLeE)
-* [eigenvalues] (https://www.youtube.com/watch?v=PhfbEr2btGQ)
+* [adding vectors](https://www.youtube.com/watch?v=8QihetGj3pg)
+* [matrix multiplication](https://www.youtube.com/watch?v=aKhhYguY0DQ)
+* [matrix inverse](https://www.youtube.com/watch?v=iUQR0enP7RQ)
+* [how to visualize lines and planes and hyperplanes](https://www.youtube.com/watch?v=UJxgcVaNTqY); [dot product](https://www.youtube.com/watch?v=WNuIhXo39_k)
+* [systems of linear equations](https://www.youtube.com/watch?v=vA-55wZtLeE)
+* [eigenvalues](https://www.youtube.com/watch?v=PhfbEr2btGQ)
 
 ### Exercises  
 
