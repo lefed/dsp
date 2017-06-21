@@ -4,7 +4,7 @@ import csv
 
 #new example code vs. problem code
 
-list_of_emails = ['laura.fedoruk@gmail.com', 'andrew.young28@gmail.com', 'fedoruks@shaw.ca', 'test@yahoo.com']
+list_of_emails = ['laura@gmail.com', 'andrew@gmail.com', 'feds@shaw.ca', 'test@yahoo.com']
 
 with open ('emails.csv', 'w') as csv_file:
     emailwriter = csv.writer(csv_file)
