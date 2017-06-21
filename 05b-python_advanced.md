@@ -29,12 +29,11 @@ This data is available in this file:  [faculty.csv](python/faculty.csv)
 
 #### Q3. Search for email addresses and put them in a list.  Print the list of email addresses.
 
->> See test files under python directory
-
+>> See test files under python directory and [advanced_python_regex.py](python/advanced_python_regex.py)
 
 #### Q4. Find how many different email domains there are (Ex:  mail.med.upenn.edu, upenn.edu, email.chop.edu, etc.).  Print the list of unique email domains.
 
->> See test files under python directory
+>> See test files under python directory and [advanced_python_regex.py](python/advanced_python_regex.py)
 
 Place your code in this file: [advanced_python_regex.py](python/advanced_python_regex.py)
 
