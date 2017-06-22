@@ -11,13 +11,21 @@ pregnancy length?_
 
 
 ​In[30]:
+
 #Solution
+
 firsts.totalwgt_lb.mean(), others.totalwgt_lb.mean()
+
 Out[30]:
+
 (7.201094430437772, 7.325855614973262)
 
 In [31]:
+
 #Solution
+
 ​CohenEffectSize(firsts.totalwgt_lb, others.totalwgt_lb)
+
 Out[31]:
+
 -0.088672927072602006
