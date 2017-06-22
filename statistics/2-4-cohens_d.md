@@ -7,4 +7,25 @@ are lighter or heavier than others. Compute Cohen’s d to quantify the
 difference between the groups. How does it compare to the difference in
 pregnancy length?_
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Place Answer Below:
+
+
+​In[30]:
+
+#Solution
+
+firsts.totalwgt_lb.mean(), others.totalwgt_lb.mean()
+
+Out[30]:
+
+(7.201094430437772, 7.325855614973262)
+
+In [31]:
+
+# Solution
+
+​CohenEffectSize(firsts.totalwgt_lb, others.totalwgt_lb)
+
+Out[31]:
+
+-0.088672927072602006
