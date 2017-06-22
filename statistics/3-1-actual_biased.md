@@ -20,14 +20,14 @@ In [37]:
 pmf = thinkstats2.Pmf(resp.numkdhh, label='numkdhh')
 In [38]:
 
-# Solution
+#Solution
 ​
 thinkplot.Pmf(pmf)
 thinkplot.Config(xlabel='Number of children', ylabel='PMF')
 
 In [39]:
 
-# Solution
+#Solution
 ​
 biased = BiasPmf(pmf, label='biased')
 In [40]:
@@ -40,14 +40,14 @@ thinkplot.Config(xlabel='Number of children', ylabel='PMF')
 
 In [41]:
 
-# Solution
+#Solution
 ​
 pmf.Mean()
 Out[41]:
 1.0242051550438309
 In [42]:
 
-# Solution
+#Solution
 ​
 biased.Mean()
 Out[42]:
