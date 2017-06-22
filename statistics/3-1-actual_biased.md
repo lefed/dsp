@@ -12,17 +12,21 @@ Plot the actual and biased distributions, and compute their means.
 
 
 resp = nsfg.ReadFemResp()
+
 resp = nsfg.ReadFemResp()
+
 In [37]:
 
-# Solution
+#Solution
 ​
 pmf = thinkstats2.Pmf(resp.numkdhh, label='numkdhh')
+
 In [38]:
 
 #Solution
 ​
 thinkplot.Pmf(pmf)
+
 thinkplot.Config(xlabel='Number of children', ylabel='PMF')
 
 In [39]:
@@ -30,12 +34,15 @@ In [39]:
 #Solution
 ​
 biased = BiasPmf(pmf, label='biased')
+
 In [40]:
 
-# Solution
+#Solution
 ​
 thinkplot.PrePlot(2)
+
 thinkplot.Pmfs([pmf, biased])
+
 thinkplot.Config(xlabel='Number of children', ylabel='PMF')
 
 In [41]:
@@ -43,12 +50,17 @@ In [41]:
 #Solution
 ​
 pmf.Mean()
+
 Out[41]:
+
 1.0242051550438309
+
 In [42]:
 
 #Solution
 ​
 biased.Mean()
+
 Out[42]:
+
 2.4036791006642821
