@@ -67,6 +67,7 @@ $ git clone https://github.com/AllenDowney/ThinkStats2.git
 Jupyter Notebook of ThinkStats2 Exercises and Solutions can be found [HERE](http://localhost:8890/tree). Note this can only be accessed after going to
 
 /Users/laurafedoruk/ds/metis/metisgh/prework/ThinkStats2/code
+
 ==> ipython notebook &
 
 ### Q1. [Think Stats Chapter 2 Exercise 4](statistics/2-4-cohens_d.md) (effect size of Cohen's d)  
