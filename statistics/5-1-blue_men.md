@@ -7,6 +7,7 @@ In order to join Blue Man Group, you have to be male between 5’10” and 6’1
 >> Answer solution code below with In/Out Notation based on ipython notebook:
 
 scipy.stats contains objects that represent analytic distributions
+
 In [27]:
 
 import scipy.stats
@@ -27,7 +28,7 @@ Out[28]:
 
 scipy.stats._distn_infrastructure.rv_frozen
 
-A "frozen random variable" can compute its mean and standard deviation.
+_A "frozen random variable" can compute its mean and standard deviation._
 
 In [29]:
 
