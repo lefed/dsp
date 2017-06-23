@@ -117,7 +117,19 @@ Probability(Identical Twin | Twin) = ((1)*(1/300))/(1/125) = 0.41666666666 or ap
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>>Answer:
+
+_from wikipedia:_
+
+In the Bayesian (or epistemological) interpretation, probability measures a “degree of belief.” Bayes’ theorem then links the degree of belief in a proposition before and after accounting for evidence. For example, suppose it is believed with 50% certainty that a coin is twice as likely to land heads than tails. If the coin is flipped a number of times and the outcomes observed, that degree of belief may rise, fall or remain the same depending on the results.
+
+In the frequentist interpretation, probability measures a “proportion of outcomes.” For example, suppose an experiment is performed many times. P(A) is the proportion of outcomes with property A, and P(B) that with property B. P(B | A ) is the proportion of outcomes with property B out of outcomes with property A, and P(A | B ) the proportion of those with A out of those with B.
+
+_put another way:_
+
+Bayseians treat unknown quantities probabilitistically and the state or understanding of the world can always be updated.
+
+Frequentists take the view that sampling is infinite and decision rules can be sharp. 
 
 ---
 
